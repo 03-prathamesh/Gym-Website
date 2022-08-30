@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prathamesh's fitness</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700;800&family=Merriweather&family=Montserrat&family=Mukta:wght@400;500&family=PT+Serif:wght@700&family=Roboto+Condensed&family=Rubik+Maze&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+        background: url("iimages/sport-g91a035297_1920.jpg");
+        
+
+        font-family: "Baloo Bhai 2", cursive;
+        color: white;
+      }
+
+      .left {
+        display: inline-block;
+        /* border: 2px solid green; */
+        color: white;
+        position: absolute;
+        left: 60px;
+        top: 18px;
+        text-align: center;
+      }
+
+      .left img {
+        width: 70px;
+      }
+
+      .left div {
+        text-align: center;
+        line-height: 10px;
+        font-size: 14px;
+      }
+
+      .mid {
+        /* border: 2px solid yellow; */
+        color: white;
+        width: 36%;
+        margin: 28px 450px;
+      }
+
+      .right {
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 18px;
+        /* border: 2px solid pink; */
+        color: white;
+      }
+
+      .navbar li {
+        display: inline-block;
+      }
+
+      .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 0 10px;
+      }
+
+      .navbar li a:hover,
+      .navbar li a.active:hover {
+        text-decoration: underline;
+        color: yellow;
+        cursor: pointer;
+      }
+
+      .btn {
+        margin: 0px 8px;
+        background-color: black;
+        color: white;
+        padding: 3px 4px;
+        border: 2px solid white;
+        border-radius: 8px;
+        cursor: pointer;
+
+        font-family: "Baloo Bhai 2", cursive;
+      }
+
+      .btn:hover {
+        /* background-color: rgb(42, 40, 40); */
+        color: gold;
+      }
+
+      .container {
+        border: 2px solid white;
+        margin: 106px 80px;
+        padding: 35px 75px;
+        width: 33%;
+        border-radius: 28px;
+      }
+
+      .form-grp input {
+        text-align: center;
+        display: block;
+        width: 348px;
+        border: 2px solid rgb(73, 73, 233);
+        margin: 11px auto;
+        padding: 4px 13px;
+        border-radius: 10px;
+        font-size: 15px;
+        font-family: "Baloo Bhai 2", cursive;
+      }
+
+      .container h1 {
+        text-align: center;
+        color: gold;
+      }
+
+      .container h1:hover{
+
+            text-decoration: underline ;
+      }
+
+      .container .btn {
+
+        display: block;
+        /* display: inline; */
+        width: 33%;
+        margin: auto;
+        margin-top: 30px ;
+      }
+
+      .bottom{
+
+            position: absolute;
+            top: 550px;
+            right: 143px;
+      }
+
+      .bottom h1{
+
+           border: 2px solid white;
+           padding: 0 30px;
+           font-size: 25px;
+           color: gold;
+      }
+
+      .bottom h1 span{
+
+             text-decoration: underline;
+             color:red;
+      }
+
+      .img2{
+
+          width: 100%;
+          height: 100%;
+      }
+
+      .footer{
+
+           background-color: green;
+           margin: 0px;
+           text-align: center;
+           padding: 10px 18px ;
+      }
+      .footer h1{
+
+           font-size: 40px;
+            color: indigo;
+         
+      }
+      .footer p{
+
+         text-decoration: underline;
+      }
+
+
+
+
+    </style>
+
+
+
+
+
+  </head>
+  <body>
+    <header class="header">
+      <!-- left Box for the logo -->
+      <div class="left">
+        <img src="iimages/images.jpg" alt="" />
+        <div>Prathamesh-Fitness!</div>
+      </div>
+
+      <!-- mid box for the navbar -->
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Fitness-Calculator</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </div>
+
+      <!-- right box for  the buttons -->
+
+      <div class="right">
+        <button class="btn">Call Us Now</button>
+        <button class="btn">Email Us</button>
+      </div>
+    </header>
+
+    <div class="container">
+      <h1>join the best GYM of pune now!</h1>
+      <form action="noaction.php" class="form-grp">
+        <div>
+          <input type="text" name="" id="" placeholder="Enter Your Name" />
+        </div>
+
+        <div>
+          <input type="text" name="" id="" placeholder="Enter Your Age" />
+        </div>
+
+        <div>
+          <input type="text" name="" id="" placeholder="Enter Your Gender" />
+        </div>
+
+        <div>
+          <input type="text" name="" id="" placeholder="Enter Your locality" />
+        </div>
+
+        <div>
+            <input type="email" name="" id="" placeholder="Enter Your E-mail">
+          </div>
+
+        <button class="btn">Submit</button>
+      </form>
+
+
+    </div>
+
+ 
+    <div class="bottom">
+
+        <h1 class="bottomh1">GYM fees per Month- <span>500 rs!</span></h1>
+
+    </div>
+
+    <img  class="img2" src="iimages/pexels-william-choquette-1954524.jpg" alt="">
+
+    <img  class="img2" src="iimages/pexels-leon-ardho-1552249.jpg" alt="">
+
+
+    <div class="footer">
+
+             <h1>Join Now!</h1>
+             <p>@prathameshAmundkar</p>
+
+    </div>
+     
+  </body>
+</html>
